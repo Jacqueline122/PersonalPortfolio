@@ -52,11 +52,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Self-starter, creative, and problem-solver with a passion for learning new technologies and creating seamless user experiences."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS"
     )
   ],
 
@@ -131,10 +131,7 @@ const educationInfo = {
       subHeader: "Master & Bachelor of Science in Computer Science",
       duration: "Augusr 2021 - May 2025",
       desc: "GPA: 3.95 / 4.0",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      
     },
     {
       schoolName: "Denison University",
@@ -142,7 +139,6 @@ const educationInfo = {
       subHeader: "Bachelor of Arts in Mathematics",
       duration: "August 2018 - May 2021",
       desc: "GPA: 3.57 / 4.0",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -212,8 +208,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -382,7 +378,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+92-0000000000",
-  email_address: "gary313312849@gmail.com"
+  email_address: "jiayujacqueline@wustl.edu"
 };
 
 // Twitter Section
