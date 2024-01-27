@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Jacqueline Long",
+  title: "Hi all, I'm Jacqueline",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Engineer dedicated to improving skills through hands-on learning and development work. Well-organized and collaborative team player with strong communication and analytical abilities."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1sLIxVehSW3Ee2PzgCT9E5CPaxir66fUP/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Jacqueline122",
+  linkedin: "https://www.linkedin.com/in/jacqueline-long-34b73a213/",
+  gmail: "longjacqueline122@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -72,10 +72,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -126,23 +126,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Washington University in St. Louis",
+      logo: require("./assets/images/WashU.png"),
+      subHeader: "Master & Bachelor of Science in Computer Science",
+      duration: "Augusr 2021 - May 2025",
+      desc: "GPA: 3.95 / 4.0",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Denison University",
+      logo: require("./assets/images/Denison_University.png"),
+      subHeader: "Bachelor of Arts in Mathematics",
+      duration: "August 2018 - May 2021",
+      desc: "GPA: 3.57 / 4.0",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -174,29 +174,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Development Engineer Intern",
+      company: "Amazon",
+      companylogo: require("./assets/images/Amazon.png"),
+      date: "May 2023 – August 2023",
+      desc: "Skills: Python, Typescript, S3, Lambda, CDK, CloudWatch",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and implemented a robust auditing mechanism using Python to validate Amazon’s messaging, decreasing email phishing incidents by 25% and enhancing security for over 300k users monthly.",
+        "Engineered an AWS CI/CD pipeline for automated processing and storage of failure reports, utilizing AWS Lambda for aggregate and AWS S3 for data storage.",
+        "Facilitated real-time data analysis and monitoring by implementing AWS CDK for the creation of dynamic data visualizations in AWS CloudWatch, ensuring immediate insights into data records.",
+        "Attained an impressive 90% unit test coverage, demonstrating a strong emphasis on software reliability and quality assurance."
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    // {
+    //   role: "Front-End Developer",
+    //   company: "Quora",
+    //   companylogo: require("./assets/images/quoraLogo.png"),
+    //   date: "May 2017 – May 2018",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Leshan Foreign Language School",
+      companylogo: require("./assets/images/school.png"),
+      date: "June 2021 – August 2021",
+      desc: "Javascript, HTML, CSS",
+      descBullets:[
+        "Developed an integrated weather forecast application for the school’s website using JavaScript, HTML, and CSS, resulting in a 30% increase in engagement on the school’s website due to the interactive and responsive weather feature.",
+        "Utilized JavaScript for DOM manipulation and AJAX for API integration, enhancing the application’s dynamic data retrieval and display capabilities.",
+        "Integrated Jenkins for CI/CD, streamlining the development process by automating builds, tests, and deployment, thus improving project efficiency and code stability."
+      ]
     }
   ]
 };
@@ -216,25 +223,36 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/QA.png"),
+      projectName: "InfoSphere",
+      projectDesc: "Q&A platform where people can share ideas",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/Jacqueline122/InfoSphere"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/chatroom.png"),
+      projectName: "chatroom",
+      projectDesc: "Java, SpringBoot",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/Jacqueline122/Chat-Room"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/crimeapp.png"),
+      projectName: "Crime App",
+      projectDesc: "Swift, Objective C, Xcode",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/Jacqueline122/Crime-APP"
         }
       ]
     }
