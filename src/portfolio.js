@@ -266,6 +266,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Tau Beta Pi",
+      subtitle:
+      "As a Tau Beta Pi member, I'm part of an esteemed network of engineers known for their excellence and integrity. This lifelong membership offers unique leadership experiences and connects me with a diverse community of engineering professionals.",
+      image: require("./assets/images/TBP.png"),
+      imageAlt: "TBP Logo",
+      footerLink: [
+      //   {
+      //     name: "View Google Assistant Action",
+      //     url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+      //   }
+      ]
+    },
+    {
       title: "J.P. Morgan Virtual Experience Program",
       subtitle:
         "Developed a client-side web application featuring an auto-updating graph, facilitating real-time data display from the server application.Analyzed the data feed for stock A and B’s prices, determining optimal trading times.",
